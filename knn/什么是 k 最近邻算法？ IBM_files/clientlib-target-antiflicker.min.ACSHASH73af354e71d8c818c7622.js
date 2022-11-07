@@ -1,0 +1,1 @@
+!function(){const n="loadinganimation";function t(){document.querySelectorAll("[loadinganimation]").forEach((t=>{t.removeAttribute(n)}))}var e;document.addEventListener("at-content-rendering-succeeded",(function(){t()})),document.addEventListener("at-content-rendering-failed",(function(){t()})),e=window.antiFlicker.timeout,setTimeout((function(){t()}),e)}();
