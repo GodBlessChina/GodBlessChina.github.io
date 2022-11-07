@@ -63,6 +63,7 @@ log{
     padding-left: 10px;
     padding-right: 10px;
     background-color: antiquewhite;
+    white-space: pre-wrap; /* 文字自動換行*/
 }
 .bcc{
     /* div变成一个边框 有背景 内容居中 */
@@ -73,6 +74,7 @@ log{
     display: flex;
     align-items: center; /*上下居中 */
     justify-content: center;/*水平居中 */
+    white-space: pre-wrap; /* 文字自動換行*/
 }
 
 .bcc3{
@@ -85,6 +87,7 @@ log{
     height: 300px; 
     align-items: center; /*上下居中 */
     justify-content: center;/*水平居中 */
+    white-space: pre-wrap; /* 文字自動換行*/
 }
 
 .bcc6{
@@ -97,6 +100,7 @@ log{
     height: 600px; 
     align-items: center; /*上下居中 */
     justify-content: center;/*水平居中 */
+    white-space: pre-wrap; /* 文字自動換行*/
 }
 
 java{
