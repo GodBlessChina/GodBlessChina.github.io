@@ -1,0 +1,82 @@
+*{
+    /* pre-wrap 自动换行，并且在浏览器缩小宽度时，文字也会自动换行 */
+    white-space: pre-wrap;
+}
+note{
+    /* 注意事项 */
+    font-size: larger;
+    color: rebeccapurple;
+}
+todo{
+    /* 代码 todo */
+    font-size: larger;
+    color: blue;
+}
+log{
+    /* 代码注释 日志等 */
+    font-size: smaller;
+    color: burlywood;
+}
+.b{
+    /* div变成一个边框 */
+    border:solid 5px chocolate;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bc{
+    /* div变成一个边框 有背景 */
+    border:solid 5px chocolate;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: antiquewhite;
+}
+.bcc{
+    /* div变成一个边框 有背景 内容居中 */
+    border:solid 5px chocolate;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center; /*上下居中 */
+    justify-content: center;/*水平居中 */
+}
+
+.bcc3{
+    /* div变成一个边框 有背景 内容居中 高度 */
+    border:solid 5px chocolate;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    height: 300px; 
+    align-items: center; /*上下居中 */
+    justify-content: center;/*水平居中 */
+}
+
+.bcc6{
+    /* div变成一个边框 有背景 内容居中 高度 */
+    border:solid 5px chocolate;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: antiquewhite;
+    display: flex;
+    height: 600px; 
+    align-items: center; /*上下居中 */
+    justify-content: center;/*水平居中 */
+}
+
+java{
+    /* java代码 */
+    font-style: italic;
+    color: cadetblue;
+}
+a{
+    /* a标签 */
+    font-size: larger;
+    font-style: italic;
+}
+
+fb{
+    font-display:initial;
+    background-color:yellow;
+}
