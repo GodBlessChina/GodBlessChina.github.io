@@ -1,0 +1,7 @@
+git add .
+git commit -m '日志'
+git push
+
+
+git reset --soft HEAD~1  撤回1次commit，对文件内容没有改变。
+git reset --soft HEAD~2  撤回2次commit，对文件内容没有改变。

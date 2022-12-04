@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>學習本身就是一件樂事</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="bcc3">
+        不知道寫什麽，<note style="font-size: 20px; color: blueviolet;">祝大家新年快樂!</note>
+        codeshare pythonjichu ds2022
+    </div>
+
+    <footer>
+        <hr class="bottom">
+        <copyright style="font-size: 20px; color: blueviolet;">創建於2022年10月21日</copyright> <time style="font-size:15px;" id="time">time1</time>
+        <info></info>
+    </footer>
+    <script>
+        let time = new Date().toLocaleDateString();
+        let ymd = time.split('/');
+        let year = ymd[2];
+        let month = ymd[0];
+        let data = ymd[1];
+        document.getElementById('time').innerHTML = "当前日期:" + year + "年" + month + "月" + data + "日";
+    </script>
+
+</body>
+
+</html>
